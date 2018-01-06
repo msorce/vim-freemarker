@@ -65,7 +65,7 @@ syntax match freemarkerOperator "\v\="
 
 "Strings and comments {{{
 syntax match freemarkerString '\v".*"'
-syntax match freemarkerComment "\v\<#--.*--\>"
+syntax match freemarkerComment "\v\[#--.*--\]"
 "}}}
 
 "highlighting groups {{{
